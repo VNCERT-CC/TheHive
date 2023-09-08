@@ -23,7 +23,7 @@ object Dependencies {
   lazy val janusGraphElasticSearch = "org.janusgraph"              % "janusgraph-es"                      % janusVersion
   lazy val janusGraphCassandra     = "org.janusgraph"              % "janusgraph-cql"                     % janusVersion
   lazy val janusGraphInMemory      = "org.janusgraph"              % "janusgraph-inmemory"                % janusVersion
-  lazy val tinkerpop               = "org.apache.tinkerpop"        % "gremlin-core"                       % "3.6.2" // 3.4.6 align with janusgraph 0.5.3
+  lazy val tinkerpop               = "org.apache.tinkerpop"        % "gremlin-core"                       % "3.4.6" // 3.4.6 align with janusgraph 0.5.3
   lazy val scalactic               = "org.scalactic"              %% "scalactic"                          % "3.2.3"
   lazy val scalaGuice              = "net.codingwell"             %% "scala-guice"                        % "4.2.11"
   lazy val shapeless               = "com.chuusai"                %% "shapeless"                          % "2.3.3"
